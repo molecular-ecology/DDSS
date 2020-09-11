@@ -1,6 +1,7 @@
-## modifications made on the original BlastNToSnp.java from https://github.com/lindenb/jvarkit/blob/master/src/main/java/com/github/lindenb/jvarkit/tools/blast/BlastNToSnp.java to include on the output 'blast.perc_identity' blast.query_from and 'blast.query_to' colunms
+modifications made on the original BlastNToSnp.java from https://github.com/lindenb/jvarkit/blob/master/src/main/java/com/github/lindenb/jvarkit/tools/blast/BlastNToSnp.java to include on the output **blast.perc_identity blast.query_from** and **blast.query_to** colunms
 
-From the original line 175
+#### From the original line 175
+
 	pw.print("blast.align_length");
 	pw.print('\t');
 	pw.print("blast.hit.var");
@@ -12,7 +13,7 @@ From the original line 175
 	pw.println();
 	for(;;)
 
-To:
+#### To:
 
 	pw.print("blast.align_length");
 	pw.print('\t');
@@ -31,7 +32,8 @@ To:
 	pw.println();
 	for(;;)
 
-From the original line 207
+
+#### From the original line 207
 
 				int hsp_query_from=Integer.parseInt(hsp.getHspQueryFrom());
 				int hsp_query_to=Integer.parseInt(hsp.getHspQueryTo());
@@ -44,8 +46,8 @@ From the original line 207
 				int query_index = hsp_query_from;
 				int hit_index = hsp_hit_from;
 
+### To: 
 
-To: 
 				int hsp_query_from=Integer.parseInt(hsp.getHspQueryFrom());
 				int hsp_query_to=Integer.parseInt(hsp.getHspQueryTo());
 				int hsp_hit_from=Integer.parseInt(hsp.getHspHitFrom());
@@ -65,7 +67,7 @@ To:
 				int hit_index = hsp_hit_from;
 
 
-From the original line 286
+#### From the original line 286
 
 					pw.print('\t');
 					pw.print(align_length);
@@ -82,7 +84,7 @@ From the original line 286
 					//marshaller.marshal(new JAXBElement<Hsp>(new QName("Hsp"), Hsp.class, hsp), System.out);
 					//pw.println();
 
-To:
+#### To:
 
 					pw.print('\t');
 					pw.print(align_length);
