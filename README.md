@@ -1,2 +1,6 @@
 # DDSS
 ### Quantitative prey species detection in predator gut contents by direct DNA shotgun sequencing
+
+DNA-based methods to identify species interactions has revolutionized the study of ecological communities. A limitation has been PCR bias in species detection and poor ability to quantify the strength of the interaction. We present a method for prey detection in arthropod predator gut contents using direct DNA shotgun sequencing (DDSS), which does not require prey barcode enrichment and allows quantification of the interaction. It relied on reference-mapping to entire mitochondrion genomes, effectively detected small quantities of degraded prey DNA, and did not require read assembly. By using feeding trial bioassays, we demonstrate that prey detection, precision (positive predictive value) and taxonomic resolution was equivalent or better than the current commonly used molecular methods. Number of prey reads was quantitatively related to the amount of prey consumed and the elapsed time since of consumption. Indirect predation was detectable, even 3 h after indirect predation, which occurred 6 h after direct predation. Positive predictive value was 99.3%.
+
+This repository contain several scripts developed in this project.
