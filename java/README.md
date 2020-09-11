@@ -1,4 +1,4 @@
-modifications made on the original BlastNToSnp.java from https://github.com/lindenb/jvarkit/blob/master/src/main/java/com/github/lindenb/jvarkit/tools/blast/BlastNToSnp.java to include on the output **blast.perc_identity blast.query_from** and **blast.query_to** colunms
+modifications made on the original BlastNToSnp.java from https://github.com/lindenb/jvarkit/blob/master/src/main/java/com/github/lindenb/jvarkit/tools/blast/BlastNToSnp.java to include on the output **blast.perc_identity, blast.query_from** and **blast.query_to** colunms
 
 #### From the original line 175
 
