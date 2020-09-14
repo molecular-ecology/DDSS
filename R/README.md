@@ -5,5 +5,5 @@ cks degenerate bases and eliminates records with matches, corrects the number of
 n overlap length on each alignment. It gives the hit with the highest percent identity for each overlap length, and summarizes the data 
 by giving the number of reads for each overlap length, percent identity threshold and hit species.
 
-To run the script please change the lines with *#### CHANGE* on this script
+To run the script please change the lines with ___#### CHANGE___ on this script
 
